@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfcf5; /* Creamy Off-White */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #1f4e78; /* Blue Accent */
+    color: white;
+    border-bottom: 5px solid #1468a0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+}
+
+/* Reviews Container */
+#reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+/* Review Card */
+.review-card {
+    background-color: white;
+    border: 2px solid #e4e4e4;
+    border-radius: 15px; /* Rounded Edges */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.review-card h3 {
+    color: #1f4e78;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.review-card p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.review-card .date {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.review-card .rating {
+    color: #f4b400; /* Gold for Stars */
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1f4e78;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+/* Buttons */
+#buttons-container button {
+    background-color: #1f4e78; /* Blue Accent */
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#buttons-container button:hover {
+    background-color: #1468a0;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
